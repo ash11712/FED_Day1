@@ -4,51 +4,65 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Registration Form</title>
+	<title>Survey Form</title>
 </head>
 
 <body>
-	<h1>REGISTRATION FORM</h1>
-	<form name="registerForm">
+	<h1>FORM</h1>
+	<form name="Form">
 		<h4>
-			<label for="firstName">First Name: *</label>
-			<input type="text" id="firstName" name="firstName" placeholder="Sam" required />
+			<label for="FirstName">First Name:</label>
+			<input type="text" id="Fmame" name="firstName" placeholder="Enter First Name*" required />
+		</h4>
+		
+    <h4>
+			<label for="lastName">Last Name:</label>
+			<input type="text" id="Lname" placeholder="Enter Last Name*" required />
+		</h4>
+    <h4>
+			<label for="lastName">DOB:</label>
+			<input type="date" id="Lname" required />
+		</h4>
+    <h4>What is your gender?</h4>
+		<input type="radio" name="Gender" value="Male" /> Male<br>
+		<input type="radio" name="Gender" value="Female" /> Female
+    <h4>
+			<label for="e-mail">Phone:</label>
+			<input type="tel" id="phone" name="phone" placeholder="1234567890*" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required />
+		</h4>
+    <h4>
+			<label for="e-mail">E-mail:</label>
+			<input type="email" id="e-mail" placeholder="Enter your E-mail*" required />
+		</h4>
+		
+    <h4>
+			<label for="password">Password:</label>
+			<input type="password" id="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" />
+		</h4>
+    <h4>
+			<label for="password">Your Portfolio URL:</label>
+			<input type="url" id="Portfolio" name="Portfolio" />
 		</h4>
 		<h4>
-			<label for="lastName">Last Name: *</label>
-			<input type="text" id="lastName" placeholder="Watt" required />
-		</h4>
+			Choose Your Favourite Programming Langusge:</h4>
+			<input type="checkbox" id="Langusge1" name="Langusge1" value="Bike">
+      <label for="Langusge1">C++</label><br>
+      <input type="checkbox" id="Langusge2" name="Langusge2" value="Car">
+      <label for="Langusge2">Java</label><br>
+      <input type="checkbox" id="Langusge3" name="Langusge3" value="Boat">
+      <label for="Langusge2">Python</label><br> 
 		<h4>
-			<label for="password">Password: *</label>
-			<input type="password" id="password" pattern=".{8,}" required title="8 characters minimum" />
-		</h4>
-		<h4>
-			<label for="e-mail">E-mail: *</label>
-			<input type="text" id="e-mail" placeholder="samwatt@gmail.com" required />
-		</h4>
-		<h4>
-			<label for="phoneNumber">Phone Number:</label>
-			<input type="text" id="phoneNumber" maxlength="9" pattern=".{9,}" required title="9 characters length"
-				placeholder="223587972" />
-		</h4>
-		<h4>
-			<label for="country">Country:</label>
-			<input type="text" id="country" placeholder="India" />
-		</h4>
-		<h4>
-			Select Course:
+			Select Your Favourite Sport:
 			<select type="text" name="Subject">
-				<option>BTECH</option>
-				<option>MBA</option>
-				<option>MCA</option>
-				<option>M.COM</option>
+				<option>Criclet</option>
+				<option>Rugby</option>
+				<option>Football</option>
+				<option>Badminton</option>
 			</select>
 		</h4>
-
-		<h4>What is your gender?</h4>
-		<input type="radio" name="media" value="newspaper" /> Male<br>
-		<input type="radio" name="media" value="recommend" /> Female<br><br>
-		<input type="submit" value="Submit" name="submit" />
+    
+		
+	  <input type="submit" value="Submit" name="submit" />
 	</form>
 </body>
 
