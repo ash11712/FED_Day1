@@ -4,10 +4,8 @@
     margin: 0px;
     list-style-type: none;
     text-align: center;
-      color: #393939;
-     
+    color: #393939;
   }
- 
   header {
     background-color: #87509c;
   }
@@ -35,11 +33,12 @@
   .width90 {
     width: 90% !important;
   }
-   
+  
   a {
     text-decoration: none;
     color: white;
   }
+  
   ul {
     display: flex;
     justify-content: center;
@@ -47,42 +46,11 @@
   li {
     padding-right: 10px;
   }
-  .copy-color{
-      color: #ffffff;
+
+  .copy-color {
+    color: #ffffff;
   }
-  .pad-all20 {
-    padding: 20px !important;
-  }
-  .padlr-30 {
-    padding-left: 30px !important;
-    padding-right: 30px !important;
-  }
-  .padlr-20 {
-    padding-left: 20px !important;
-    padding-right: 20px !important;
-  }
-  .padlr-10 {
-    padding-left: 10px !important;
-    padding-right: 10px !important;
-  }
-  .padtb-40 {
-    padding-top: 30px !important;
-    padding-bottom: 30px !important;
-  }
-  .padtb-20 {
-    padding-top: 20px !important;
-    padding-bottom: 20px !important;
-  }
-  .padtb-10 {
-    padding-top: 10px !important;
-    padding-bottom: 10px !important;
-  }
-  .padt-5 {
-    padding-top: 5px !important;
-  }
-  .padb-5 {
-    padding-bottom: 5px !important;
-  }
+
   .padt-10 {
     padding-top: 10px !important;
   }
@@ -92,16 +60,40 @@
   .padt-30 {
     padding-top: 30px !important;
   }
-  .padb-30 {
-    padding-bottom: 30px !important;
+  .padb-10 {
+    padding-bottom: 10px !important;
   }
   .padb-20 {
     padding-bottom: 20px !important;
   }
-  .padb-10 {
+  .padb-30 {
+    padding-bottom: 30px !important;
+  }
+  .padlr-10 {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  .padlr-20 {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .padlr-30 {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+  .padtb-10 {
+    padding-top: 10px !important;
     padding-bottom: 10px !important;
   }
-  /* padding section end */
+  .padtb-20 {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+  }
+  .padtb-40 {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+  }
+  
   .hr1 {
     width: 70px;
     background-color: #000000;
@@ -127,6 +119,7 @@
     background-color: #273a71;
     margin: auto;
   }
+
   button {
     border-radius: 3px;
     border: none;
@@ -143,8 +136,6 @@
     color: white;
     background-color: #30bae7;
   }
-   
-  /* styles for desktop devices */
   @media only screen and (min-width: 992px) {
     * {
       padding: 0px !important;
@@ -159,61 +150,53 @@
     nav {
       display: flex;
     }
-    .pad-none {
-      padding: 0px !important;
-    }
     .home {
       align-items: right;
     }
+    
+    nav {
+      display: flex;
+      justify-content: space-between;
+    }
     .display-desktop {
       display: flex;
+        flex-direction: row;
       justify-content: space-evenly;
     }
+     
     .desktop-header {
       padding-top: 40px !important;
       padding-bottom: 70px !important;
       padding-left: 100px !important;
       padding-right: 100px !important;
     }
+
     .desktop-pad {
       padding: 70px 100px !important;
-    }
-    .desktop-padt30 {
-      padding-top: 30px !important;
-    }
-    .desktop-padb30 {
-      padding-bottom: 30px !important;
     }
     .desktop-pad40 {
       padding: 40px 200px !important;
     }
-    li {
-      padding-right: 10px !important;
-    }
-    nav {
-      display: flex;
-      justify-content: space-between;
-    }
-     
+    
     .center {
-      padding: 0px !important;
-      margin: auto !important;
+      margin: 0 auto !important;
     }
-    .desktop-width25{
+
+    .desktop-width25 {
       width: 25% !important;
     }
-	  .desktop-width50{
+    .desktop-width50 {
       width: 50% !important;
     }
-     .desktop-width100 {
+    .desktop-width100 {
       width: 100%;
-		 height:28px;
-		
-    }.desk-width100 {
+      height: 28px;
+    }
+    .desk-width100 {
       width: 100%;
     }
     .desktop-width30 {
       width: 30%;
     }
   }
-   
+  
