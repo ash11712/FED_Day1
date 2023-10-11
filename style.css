@@ -144,37 +144,33 @@
     * {
       padding: 0px !important;
     }
+    .display-desktop {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
     body {
       margin: auto;
       padding: 0px;
     }
-    img {
-      width: auto !important;
-    }
     nav {
       display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    img {
+      width: auto !important;
     }
     .home {
       align-items: right;
     }
     
-    nav {
-      display: flex;
-      justify-content: space-between;
-    }
-    .display-desktop {
-      display: flex;
-        flex-direction: row;
-      justify-content: space-evenly;
-    }
-     
     .desktop-header {
       padding-top: 40px !important;
       padding-bottom: 70px !important;
       padding-left: 100px !important;
       padding-right: 100px !important;
     }
-
     .desktop-pad {
       padding: 70px 100px !important;
     }
