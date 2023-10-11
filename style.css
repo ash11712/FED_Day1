@@ -1,12 +1,12 @@
 * {
-    font-family: "Titillium Web", Arial, Sans-serif;
-    padding: 0px;
-    margin: 0px;
+    font-family: "Titillium Web", Arial;
     list-style-type: none;
     text-align: center;
     color: #393939;
+    padding: 0px;
+    margin: 0px;
   }
-  
+
   header {
     background-color: #87509c;
   }
@@ -93,6 +93,9 @@
   .padtb-40 {
     padding-top: 30px !important;
     padding-bottom: 30px !important;
+  }
+  li {
+    padding-right: 10px !important;
   }
   
   .hr1 {
