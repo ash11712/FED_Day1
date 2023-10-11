@@ -6,6 +6,7 @@
     text-align: center;
     color: #393939;
   }
+  
   header {
     background-color: #87509c;
   }
@@ -38,7 +39,7 @@
     text-decoration: none;
     color: white;
   }
-  
+
   ul {
     display: flex;
     justify-content: center;
